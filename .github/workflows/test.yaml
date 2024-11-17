@@ -14,3 +14,4 @@ jobs:
         with:
           endpoint: "ingest.lightstep.com:443"
           headers: "lightstep-access-token=${{ secrets.ACCESS_TOKEN }}"
+# TODO: Need to fix the workflow
