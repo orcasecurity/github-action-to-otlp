@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   test-otlp-output:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: A job to test OTLP output
     steps:
       # To use this repository's private action,
